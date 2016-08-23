@@ -15,3 +15,6 @@ git branch -a
 git branch <branch_name>
 git checkout <branch_name>
 git checkout master
+
+# you must be on the branch you want to merge to
+git merge <branch_name>
