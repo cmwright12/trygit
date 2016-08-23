@@ -1,0 +1,16 @@
+git init
+
+git remote add origin <http>
+git push -v
+git push origin master
+
+git add <file>
+git add *
+git commit -m "<message>"
+
+git status
+git log --oneline
+
+git branch -a
+git branch <branch_name>
+git checkout <branch_name>
