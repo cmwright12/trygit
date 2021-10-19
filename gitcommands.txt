@@ -12,6 +12,20 @@ git status
 git log --oneline
 
 git branch -a
-git branch <branch_name>
-git checkout <branch_name>
+git branch <branch>
+git checkout -b <branch>
 git checkout master
+git branch -d <branch>
+git push origin <branch>
+
+# you must be on the branch you want to merge to
+git merge <branch_name>
+
+# copy file from one branch to another
+git checkout <frombranch> <filename>
+
+# remove file
+git rm <filename>
+git commit -m "  "
+# remove file from Git but not filesystem
+git rm --cached <filename>
