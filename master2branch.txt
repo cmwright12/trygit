@@ -1,2 +1,7 @@
 move this file to branch
+branch1
+
 changed in master
+master
+
+I guess this is what changed
